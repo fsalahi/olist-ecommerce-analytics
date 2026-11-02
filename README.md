@@ -15,9 +15,20 @@ End-to-end analysis and machine learning on the Olist Brazilian e-commerce datas
 - `docs/` – supporting notes
 
 ## Setup
+### In macOS
     python3 -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
+
+### In Windows
+    python -m venv .venv
+    .venv\Scripts\Activate.ps1
+    python -m pip install --upgrade pip
+
+## Dataset
+Brazilian E-Commerce Public Dataset by Olist: 
+kaggle.com/datasets/olistbr/brazilian-ecommerce
+For more information, check out: docs/data_sources.md
 
 ## Status
 Work in progress.
