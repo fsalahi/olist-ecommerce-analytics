@@ -31,4 +31,6 @@ kaggle.com/datasets/olistbr/brazilian-ecommerce
 For more information, check out: docs/data_sources.md
 
 ## Status
-Work in progress.
+- [x] Step 1: Project setup
+- [x] Step 2: Data ingestion and initial inspection
+- [x] Step 3: Data cleaning and order-level analytical table, chronological train/test split
