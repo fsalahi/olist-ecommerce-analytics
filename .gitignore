@@ -1,0 +1,38 @@
+# --- Data (never commit datasets) ---
+data/*
+!data/.gitkeep
+
+# --- Credentials & secrets ---
+.env
+*.env
+kaggle.json
+credentials.json
+*.pem
+*.key
+secrets/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Models & large artifacts (added early for later steps) ---
+models/
+*.pkl
+*.joblib
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
