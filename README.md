@@ -34,3 +34,4 @@ For more information, check out: docs/data_sources.md
 - [x] Step 1: Project setup
 - [x] Step 2: Data ingestion and initial inspection
 - [x] Step 3: Data cleaning and order-level analytical table, chronological train/test split
+- [x] Step 4: Exploratory data analysis (see `notebooks/03_eda.ipynb`)
